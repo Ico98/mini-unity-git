@@ -19,7 +19,8 @@ public class WebManager : MonoBehaviour
     //the file in the repository you want to retrieve data from, or you want to update
     private string fileName;
 
-    //the path of the directory inside the repository where the file is
+    //the link with the call to the api used to access repository content
+    //with the path of the directory inside the repository where the file is
     private string apiPath = "https://api.github.com/repos/{owner}/{repo}/contents/{path}";
 
     //the PAT used to access your github data
