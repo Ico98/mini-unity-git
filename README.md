@@ -1,5 +1,5 @@
 # mini-unity-git
-Simple code example to help downloading/uploading game data in unity using github API at runtime
+Simple code example to help downloading/uploading game data in Unity using GitHub REST API at runtime
 
 - comments in code will help you understand it
 - how to create a PAT: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
