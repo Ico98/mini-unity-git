@@ -20,7 +20,7 @@ public class WebManager : MonoBehaviour
     private string fileName;
 
     //the path of the directory inside the repository where the file is
-    private string apiPath = "https://api.github.com/repos/{PATH}/contents/";
+    private string apiPath = "https://api.github.com/repos/{owner}/{repo}/contents/{path}";
 
     //the PAT used to access your github data
     private string pat = "{PAT}";
